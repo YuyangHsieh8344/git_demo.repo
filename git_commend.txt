@@ -1,0 +1,47 @@
+g++ -o output.exe input.cpp
+
+how to comment multiple lines in c++
+(ctrl + /)
+or 
+/*
+
+*/
+
+doenload git =>
+Powershell-> winget install --id Git.Git -e --source winget 
+
+git init 					(select a file location in destop) 
+git status 					(to check untracked files)
+
+git add name.cpp 			(add a file to commit to github, repeat if any codes have change)
+git add .        			(add all files)
+
+git rm --cached name.cpp 	(remove a file from git status)
+
+git commit -m "message" 
+
+git commit -am "message"   	(shortcut: add and commit)
+
+Git Branch 
+a branch represents an independent line of development, the git branch comman lets
+you create, list, rename, and delete branches.
+
+git checkout -b name_of_new_branch
+
+git checkout master 		(going back to master branch)
+
+git branch 					(to check how mnay branches and which one currently on)
+
+git merge name_of_branch    (merge branch to the current one)
+
+git branch -M main 			(rename branch master to main before upload to github)
+
+git remote add origin https://github.com/YuyangHsieh8344/git_demo.repo.git
+
+git remote 					(to check)
+
+git push -u origin main
+
+git pull 					(pull updated from remote git repo)
+
+git clone http://url		(clone whatever link in the repo)
