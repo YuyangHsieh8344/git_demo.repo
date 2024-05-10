@@ -1,0 +1,21 @@
+//embedded note 
+
+Tansmitting DATA as the SPI slave
+1. to put into slave mode (default), configure UCMST = 0
+
+2. REMEMBER the slave doesn't provide a clock, so there is 
+NO UCSSEL and BRW set up needed.
+
+3. SCLK comes into the peripheral from the external master.
+
+4. clock phase and polarity DO need to be configured.
+
+5. the data framing and STE behavior needs to match the master
+	a. 3-pin vs 4-pin
+	b. STE polarity 
+	c. LSB vs. MSB
+	d. 6-bit vs. 7-bit
+
+6. wait for the RXIFG IRQ to fire
+
+7. READ Rx buffer

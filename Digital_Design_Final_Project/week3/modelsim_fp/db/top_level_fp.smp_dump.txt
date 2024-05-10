@@ -1,0 +1,28 @@
+
+State Machine - |top_level_fp|mips_processor:u_processor|controller_mips:U_ctrl|state
+Name state.branch_taken state.wait_0 state.halt state.lw_mem_read state.sw_mem_access state.lw_mem_access state.lw_sw_comp state.read_instruction state.jump_comp2 state.jump_comp state.Itype_comp state.Itype_execution state.branch_comp state.Rtype_comp state.Rtype_execution state.decode_instruction state.write_instruction state.s_rst 
+state.s_rst 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+state.write_instruction 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 
+state.decode_instruction 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 
+state.Rtype_execution 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 1 
+state.Rtype_comp 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 1 
+state.branch_comp 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 1 
+state.Itype_execution 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 1 
+state.Itype_comp 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 1 
+state.jump_comp 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 
+state.jump_comp2 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 1 
+state.read_instruction 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 1 
+state.lw_sw_comp 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 1 
+state.lw_mem_access 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 1 
+state.sw_mem_access 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 1 
+state.lw_mem_read 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+state.halt 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+state.wait_0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+state.branch_taken 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+
+State Machine - |top_level_fp|mips_processor:u_processor|datapath_mips:U_da|memory_mips:u_mem|factorial:U_fact0|state
+Name state.S_RESTART state.S_DONE state.S_FACTORIAL state.S_START 
+state.S_START 0 0 0 0 
+state.S_FACTORIAL 0 0 1 1 
+state.S_DONE 0 1 0 1 
+state.S_RESTART 1 0 0 1 

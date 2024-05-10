@@ -1,0 +1,10 @@
+v1
+DSP_BALANCING_IMPLEMENTATION,DSP_BLOCKS,mips_processor:u_processor|datapath_mips:U_da|alu_mips:U_alu|lpm_mult:Mult0|mult_qgs:auto_generated|mac_out2,
+DSP_BALANCING_IMPLEMENTATION,DSP_BLOCKS,mips_processor:u_processor|datapath_mips:U_da|memory_mips:u_mem|factorial:U_fact0|lpm_mult:Mult0|mult_pns:auto_generated|mac_out2,
+DSP_BALANCING_IMPLEMENTATION,DSP_BLOCKS,mips_processor:u_processor|datapath_mips:U_da|alu_mips:U_alu|lpm_mult:Mult0|mult_qgs:auto_generated|mac_out4,
+DSP_BALANCING_IMPLEMENTATION,DSP_BLOCKS,mips_processor:u_processor|datapath_mips:U_da|alu_mips:U_alu|lpm_mult:Mult0|mult_qgs:auto_generated|mac_out8,
+DSP_BALANCING_IMPLEMENTATION,DSP_BLOCKS,mips_processor:u_processor|datapath_mips:U_da|alu_mips:U_alu|lpm_mult:Mult0|mult_qgs:auto_generated|mac_out6,
+DSP_BALANCING_IMPLEMENTATION,DSP_BLOCKS,mips_processor:u_processor|datapath_mips:U_da|memory_mips:u_mem|factorial:U_fact0|lpm_mult:Mult0|mult_pns:auto_generated|mac_out4,
+DSP_BALANCING_IMPLEMENTATION,DSP_BLOCKS,mips_processor:u_processor|datapath_mips:U_da|memory_mips:u_mem|factorial:U_fact0|lpm_mult:Mult0|mult_pns:auto_generated|mac_out6,
+PORT_SWAPPING,PORT_SWAP_TYPE_DSPMULT,mips_processor:u_processor|datapath_mips:U_da|alu_mips:U_alu|lpm_mult:Mult0|mult_qgs:auto_generated|mac_mult5,
+PORT_SWAPPING,PORT_SWAP_TYPE_DSPMULT,mips_processor:u_processor|datapath_mips:U_da|memory_mips:u_mem|factorial:U_fact0|lpm_mult:Mult0|mult_pns:auto_generated|mac_mult5,

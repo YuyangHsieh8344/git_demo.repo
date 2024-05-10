@@ -34,6 +34,8 @@ git branch 					(to check how mnay branches and which one currently on)
 
 git merge name_of_branch    (merge branch to the current one)
 
+//upload to github steps here 
+
 git branch -M main 			(rename branch master to main before upload to github)
 
 git remote add origin https://github.com/YuyangHsieh8344/git_demo.repo.git

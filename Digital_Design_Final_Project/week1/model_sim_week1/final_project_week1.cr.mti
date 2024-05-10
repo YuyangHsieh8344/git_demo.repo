@@ -1,0 +1,329 @@
+{D:/DD/final project/week1/memory_mips.vhd} {1 {vcom -work work -2002 -explicit -stats=none {D:/DD/final project/week1/memory_mips.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity memory_mips
+-- Compiling architecture bhv of memory_mips
+-- Loading package altera_mf_components
+-- Loading entity gcd
+-- Loading entity factorial
+-- Loading entity regist_fp
+-- Loading entity logic_mips
+-- Loading entity mux_7x1
+
+} {} {}} {D:/DD/final project/week3/top_level_fp.vhd} {1 {vcom -work work -2002 -explicit -stats=none {D:/DD/final project/week3/top_level_fp.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity top_level_fp
+-- Compiling architecture STR of top_level_fp
+
+} {} {}} {D:/DD/final project/week1/Shift_Left_2.vhd} {1 {vcom -work work -2002 -explicit -stats=none {D:/DD/final project/week1/Shift_Left_2.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package MATH_REAL
+-- Compiling entity Shift_Left_2
+-- Compiling architecture bhv of Shift_Left_2
+
+} {} {}} {D:/DD/final project/week1/alu_mips.vhd} {1 {vcom -work work -2002 -explicit -stats=none {D:/DD/final project/week1/alu_mips.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity alu_mips
+-- Compiling architecture BHV of alu_mips
+
+} {} {}} {D:/DD/final project/week3/ram_1.vhd} {1 {vcom -work work -2002 -explicit -stats=none {D:/DD/final project/week3/ram_1.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package altera_mf_components
+-- Compiling entity ram_1
+-- Compiling architecture SYN of ram_1
+
+} {} {}} {D:/DD/final project/week3/ram_2.vhd} {1 {vcom -work work -2002 -explicit -stats=none {D:/DD/final project/week3/ram_2.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package altera_mf_components
+-- Compiling entity ram_2
+-- Compiling architecture SYN of ram_2
+
+} {} {}} {D:/DD/final project/week1/IR.vhd} {1 {vcom -work work -2002 -explicit -stats=none {D:/DD/final project/week1/IR.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity IR
+-- Compiling architecture bhv of IR
+
+} {} {}} {D:/DD/final project/week1/pc.vhd} {1 {vcom -work work -2002 -explicit -stats=none {D:/DD/final project/week1/pc.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity pc
+-- Compiling architecture bhv of pc
+
+} {} {}} {D:/DD/final project/week1/regist_fp.vhd} {1 {vcom -work work -2002 -explicit -stats=none {D:/DD/final project/week1/regist_fp.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity regist_fp
+-- Compiling architecture bhv of regist_fp
+
+} {} {}} {D:/DD/final project/week1/mux_2x1.vhd} {1 {vcom -work work -2002 -explicit -stats=none {D:/DD/final project/week1/mux_2x1.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity mux_2x1
+-- Compiling architecture bhv of mux_2x1
+
+} {} {}} {D:/DD/final project/week3/ram_4.vhd} {1 {vcom -work work -2002 -explicit -stats=none {D:/DD/final project/week3/ram_4.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package altera_mf_components
+-- Compiling entity ram_4
+-- Compiling architecture SYN of ram_4
+
+} {} {}} {D:/DD/final project/week1/alu_controller.vhd} {1 {vcom -work work -2002 -explicit -stats=none {D:/DD/final project/week1/alu_controller.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity alu_controller
+-- Compiling architecture bhv of alu_controller
+
+} {} {}} {D:/DD/final project/week2/controller_mips.vhd} {1 {vcom -work work -2002 -explicit -stats=none {D:/DD/final project/week2/controller_mips.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package MATH_REAL
+-- Compiling entity controller_mips
+-- Compiling architecture BHV of controller_mips
+
+} {} {}} {D:/DD/final project/week1/reg_file.vhd} {1 {vcom -work work -2002 -explicit -stats=none {D:/DD/final project/week1/reg_file.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity reg_file
+-- Compiling architecture async_read of reg_file
+
+} {} {}} {D:/DD/final project/week1/mux_3x1.vhd} {1 {vcom -work work -2002 -explicit -stats=none {D:/DD/final project/week1/mux_3x1.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity mux_3x1
+-- Compiling architecture bhv of mux_3x1
+
+} {} {}} {D:/DD/final project/week1/factorial.vhd} {1 {vcom -work work -2002 -explicit -stats=none {D:/DD/final project/week1/factorial.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity factorial
+-- Compiling architecture FSMD of factorial
+
+} {} {}} {D:/DD/final project/week3/decoder7seg.vhd} {1 {vcom -work work -2002 -explicit -stats=none {D:/DD/final project/week3/decoder7seg.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity decoder7seg
+-- Compiling architecture BHV of decoder7seg
+
+} {} {}} {D:/DD/final project/week2/ram_fp.vhd} {1 {vcom -work work -2002 -explicit -stats=none {D:/DD/final project/week2/ram_fp.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package altera_mf_components
+-- Compiling entity ram_fp
+-- Compiling architecture SYN of ram_fp
+
+} {} {}} {D:/DD/final project/week1/memory_tb.vhd} {1 {vcom -work work -2002 -explicit -stats=none {D:/DD/final project/week1/memory_tb.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity memory_tb
+-- Compiling architecture tb of memory_tb
+-- Loading entity memory_mips
+
+} {} {}} {D:/DD/final project/week1/mux_4x1.vhd} {1 {vcom -work work -2002 -explicit -stats=none {D:/DD/final project/week1/mux_4x1.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity mux_4x1
+-- Compiling architecture bhv of mux_4x1
+
+} {} {}} {D:/DD/final project/week1/alu_mips_tb.vhd} {2 {vcom -work work -2002 -explicit -stats=none {D:/DD/final project/week1/alu_mips_tb.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity alu_mips_tb
+-- Compiling architecture TB of alu_mips_tb
+** Warning: D:/DD/final project/week1/alu_mips_tb.vhd(88): (vcom-135) Based literal has negative value.
+** Warning: D:/DD/final project/week1/alu_mips_tb.vhd(102): (vcom-135) Based literal has negative value.
+
+} {} {}} {D:/DD/final project/week3/gcd.vhd} {1 {vcom -work work -2002 -explicit -stats=none {D:/DD/final project/week3/gcd.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package altera_mf_components
+-- Compiling entity gcd
+-- Compiling architecture SYN of gcd
+
+} {} {}} {D:/DD/final project/week3/ram_7.vhd} {1 {vcom -work work -2002 -explicit -stats=none {D:/DD/final project/week3/ram_7.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package altera_mf_components
+-- Compiling entity ram_7
+-- Compiling architecture SYN of ram_7
+
+} {} {}} {D:/DD/final project/week1/concat.vhd} {1 {vcom -work work -2002 -explicit -stats=none {D:/DD/final project/week1/concat.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package MATH_REAL
+-- Compiling entity Concat
+-- Compiling architecture bhv of Concat
+
+} {} {}} {D:/DD/final project/week1/sign_extend.vhd} {1 {vcom -work work -2002 -explicit -stats=none {D:/DD/final project/week1/sign_extend.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package MATH_REAL
+-- Compiling entity sign_extend
+-- Compiling architecture bhv of sign_extend
+
+} {} {}} {D:/DD/final project/week2/mips_processor.vhd} {1 {vcom -work work -2002 -explicit -stats=none {D:/DD/final project/week2/mips_processor.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity mips_processor
+-- Compiling architecture bhv of mips_processor
+-- Loading entity datapath_mips
+-- Loading package MATH_REAL
+-- Loading entity controller_mips
+
+} {} {}} {D:/DD/final project/week3/segment_crtl.vhd} {1 {vcom -work work -2002 -explicit -stats=none {D:/DD/final project/week3/segment_crtl.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity segment_crtl
+-- Compiling architecture arch of segment_crtl
+
+} {} {}} {D:/DD/final project/week1/mux_7x1.vhd} {1 {vcom -work work -2002 -explicit -stats=none {D:/DD/final project/week1/mux_7x1.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity mux_7x1
+-- Compiling architecture bhv of mux_7x1
+
+} {} {}} {D:/DD/final project/week1/logic_mips.vhd} {1 {vcom -work work -2002 -explicit -stats=none {D:/DD/final project/week1/logic_mips.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity logic_mips
+-- Compiling architecture bhv of logic_mips
+
+} {} {}} {D:/DD/final project/week1/Shift_Left_25.vhd} {1 {vcom -work work -2002 -explicit -stats=none {D:/DD/final project/week1/Shift_Left_25.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package MATH_REAL
+-- Compiling entity Shift_Left_25
+-- Compiling architecture bhv of Shift_Left_25
+
+} {} {}} {D:/DD/final project/week2/mips_tb.vhd} {1 {vcom -work work -2002 -explicit -stats=none {D:/DD/final project/week2/mips_tb.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity mips_gcd_tb
+-- Compiling architecture TB of mips_gcd_tb
+-- Loading entity mips_processor
+
+} {} {}} {D:/DD/final project/week1/datapath_mips.vhd} {1 {vcom -work work -2002 -explicit -stats=none {D:/DD/final project/week1/datapath_mips.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity datapath_mips
+-- Compiling architecture bhv of datapath_mips
+-- Loading entity pc
+-- Loading entity mux_2x1
+-- Loading entity memory_mips
+-- Loading package MATH_REAL
+-- Loading entity zero_extend
+-- Loading entity IR
+-- Loading entity regist_fp
+-- Loading entity reg_file
+-- Loading entity sign_extend
+-- Loading entity Shift_Left_2
+-- Loading entity mux_4x1
+-- Loading entity alu_mips
+-- Loading entity Shift_Left_25
+-- Loading entity Concat
+-- Loading entity mux_3x1
+-- Loading entity alu_controller
+
+} {} {}} {D:/DD/final project/week1/zero_extend.vhd} {1 {vcom -work work -2002 -explicit -stats=none {D:/DD/final project/week1/zero_extend.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package MATH_REAL
+-- Compiling entity zero_extend
+-- Compiling architecture bhv of zero_extend
+
+} {} {}}

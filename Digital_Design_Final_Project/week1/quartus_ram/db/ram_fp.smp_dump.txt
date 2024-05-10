@@ -1,0 +1,7 @@
+
+State Machine - |datapath_mips|memory_mips:u_mem|factorial:U_fact0|state
+Name state.S_RESTART state.S_DONE state.S_FACTORIAL state.S_START 
+state.S_START 0 0 0 0 
+state.S_FACTORIAL 0 0 1 1 
+state.S_DONE 0 1 0 1 
+state.S_RESTART 1 0 0 1 

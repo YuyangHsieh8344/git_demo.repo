@@ -1,0 +1,21 @@
+gcd
+1. sw10 down input1
+2. push top button (en)
+3. sw10 (bit10) up  input2  
+4. push top button    (en)
+5. push bottom button (rst)
+
+bubble sort
+1. sw10 down input1  (size)  -> 8
+2. push top button (en)    
+3. sw10 up  input2       ->1FFF
+4. push top button       
+5. push bottom button
+
+6. sw10 up input3 
+7. push top button
+
+
+8. repeat step 6,7 til you enter 8 numbers
+
+
