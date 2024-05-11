@@ -1,0 +1,10 @@
+Note
+
+pip install qrcode
+
+pip install pillow 
+=>
+PIL stands for Python Imaging Library, 
+and it is one of the most popular libraries in Python for image processing. 
+The PIL library provides extensive file format support, 
+an efficient internal representation, and powerful image processing capabilities.

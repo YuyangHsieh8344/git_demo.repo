@@ -1,4 +1,6 @@
 //embedded note 
+*UART is slower since it doesn't have a clock 
+
 
 Tansmitting DATA as the SPI slave
 1. to put into slave mode (default), configure UCMST = 0
@@ -19,3 +21,6 @@ NO UCSSEL and BRW set up needed.
 6. wait for the RXIFG IRQ to fire
 
 7. READ Rx buffer
+
+IRC (Inter-Intergrated Circuit) is a serial interface that implement 
+with a two-wire link that can support multiple masters and multiple slaves 
