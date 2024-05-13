@@ -1,0 +1,2 @@
+INFOMATION UPDATE
+"互補式場效電晶體" (Complementary Metal-Oxide-Semiconductor Field-Effect Transistor, CMOS FET) 是一種主要用於集成電路中的電子元件。CMOS FET通常由兩個互補式的MOSFET (金氧半導體場效電晶體)組成，一個是P型MOSFET，另一個是N型MOSFET。這兩個互補式的MOSFET組合在一起，形成一個CMOS邏輯閘或其他類型的CMOS電路。CMOS技術以其低功耗、高集成度和良好的噪聲容限等優點，在現代集成電路設計中被廣泛使用

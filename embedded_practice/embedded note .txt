@@ -22,5 +22,15 @@ NO UCSSEL and BRW set up needed.
 
 7. READ Rx buffer
 
-IRC (Inter-Intergrated Circuit) is a serial interface that implement 
+IRC (Inter-Integrated Circuit) is a serial interface that implement 
 with a two-wire link that can support multiple masters and multiple slaves 
+
+---------------------------------------------------------------------------------
+I2C is faster than UART since it using SCK as a clock and UART does not have one
+1. I2C communication relies on two lines: SDA (Serial Data) and SCL (Serial Clock). These lines use an open-drain or open-collector configuration, which means that the devices connected to the bus can pull the lines low but cannot drive them high. Pull-up resistors are used to pull the lines to a logic high state when they are not being actively driven low by any device. This establishes the logic high voltage level on the bus.
+
+2. I2C slave addresses can either be 7-bit(default) or 10-bit
+
+3. 0 is write/ 1 is read 
+
+4. SCL pull low to start SDA pull high to START

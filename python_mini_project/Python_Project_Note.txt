@@ -8,3 +8,14 @@ PIL stands for Python Imaging Library,
 and it is one of the most popular libraries in Python for image processing. 
 The PIL library provides extensive file format support, 
 an efficient internal representation, and powerful image processing capabilities.
+
+---------------------------------------------------------------------------------
+web scrapping
+
+pip install requests
+
+pip install bs4
+
+"Parse" means to analyze or break down something, typically a piece of text or data, into its component parts or elements to understand its structure, meaning, or syntax.
+
+In the context of programming or computer science, parsing often refers to the process of analyzing a string of characters according to a set of rules or grammar to extract relevant information. This is commonly done when dealing with data formats such as JSON, XML, HTML, or programming languages, where the data needs to be understood and processed by a computer program.
