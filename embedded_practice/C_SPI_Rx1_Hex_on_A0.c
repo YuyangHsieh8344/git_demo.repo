@@ -32,14 +32,14 @@ int main(void){
 	P2OUT |= BIT3;			//makes resistor a pull up
 	P2IES |= BIT3;			//make sensitive to H-to-L
 
-	P1SEL1 &= ~BIT5			//P1.5 = SCLK (P1SEL1:P1SEL0 = 01)
-	P1SEL0 |= BIT5	
+	P1SEL1 &= ~BIT5;		//P1.5 = SCLK (P1SEL1:P1SEL0 = 01)
+	P1SEL0 |= BIT5;	
 	
-	P1SEL1 &= ~BIT7			//P1.7 = SIMO (P1SEL1:P1SEL0 = 01)
-	P1SEL0 |= BIT7	
+	P1SEL1 &= ~BIT7;		//P1.7 = SIMO (P1SEL1:P1SEL0 = 01)
+	P1SEL0 |= BIT7;	
 
-	P1SEL1 &= ~BIT6			//P1.6 = SOMI (P1SEL1:P1SEL0 = 01)
-	P1SEL0 |= BIT6	
+	P1SEL1 &= ~BIT6;		//P1.6 = SOMI (P1SEL1:P1SEL0 = 01)
+	P1SEL0 |= BIT6;	
 	
 	PM5CTL0 &= ~LOCKLPM5;		//turn on gpio (I/O)
 	UCA0CTLW0 &= ~UCSWRST;		//take A0 out SW reset

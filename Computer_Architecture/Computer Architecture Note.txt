@@ -1,0 +1,19 @@
+Computer Architecture Note
+1. 
+Equality:
+	if A = B, A-B = 0 and Z = 1; else Z = 0.
+
+Greater than /less than:
+	if A < B, A - B < 0 and N =1; else N = 0.
+
+2.
+load => read value from data memory and put in a register 
+store => take value from register and put it back to data memory
+
+3.
+The opcode bits determine whether an and, or, subtraction, or addition operation will be performed.
+
+4.
+The load immediate command loads a constant value directly into a register, embedding the number in the machine language instruction.
+
+ldi <dst register> , <value>
