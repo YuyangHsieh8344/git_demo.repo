@@ -26,3 +26,6 @@ main:
 
 	//copy contetnt of r5 to address str2
 	sts str2, r5 
+
+
+
