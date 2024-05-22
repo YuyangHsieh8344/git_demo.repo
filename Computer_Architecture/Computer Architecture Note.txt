@@ -1,4 +1,20 @@
 Computer Architecture Note
+
+a. install MPLAB X IDE
+https://www.microchip.com/en-us/tools-resources/develop/mplab-x-ide#tabs
+
+b. xc8 compiler download
+
+c. download PLCSimLab 
+https://sourceforge.net/projects/picsim/
+
+d. create projects:
+AVR128DB28 -> simulators
+
+e. source files -> create assemply.s 
+
+---------------------------------------------------------------------------------
+
 1. 
 Equality:
 	if A = B, A-B = 0 and Z = 1; else Z = 0.
@@ -17,3 +33,23 @@ The opcode bits determine whether an and, or, subtraction, or addition operation
 The load immediate command loads a constant value directly into a register, embedding the number in the machine language instruction.
 
 ldi <dst register> , <value>
+
+5. stack 
+is a region of data memory used to store information (i.e. variables) to run a function.
+start of stack address => 0x7fff
+SRAM memory = 0x4000
+
+6. r2 - r17 and r28-r29 are called saved registers
+if callee wants to use these registers, it must first save their value to stack
+before returning, the original value of the registers must to stored
+
+
+7. r18 - r27 and r30-r31 are call-used registers,
+A Calle can overwrite these registers and does not have to restore their original values.
+
+8. Temporary registers
+r0 => can be overwritten by C functions but must be preserved by interrupts.
+All Zero registers
+r1 -> initialize to all zeros. it can be overwritten but must be stored to all zeros.
+
+r1 

@@ -19,3 +19,9 @@ pip install bs4
 "Parse" means to analyze or break down something, typically a piece of text or data, into its component parts or elements to understand its structure, meaning, or syntax.
 
 In the context of programming or computer science, parsing often refers to the process of analyzing a string of characters according to a set of rules or grammar to extract relevant information. This is commonly done when dealing with data formats such as JSON, XML, HTML, or programming languages, where the data needs to be understood and processed by a computer program.
+
+
+---------------------------------------------------------------------------------
+cls -> to clean the terminal 
+
+ctrl c -> exit the program
