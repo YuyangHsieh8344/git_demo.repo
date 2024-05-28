@@ -1,3 +1,4 @@
+gcc helloworld.c 
 g++ -o output.exe input.cpp
 
 how to comment multiple lines in c++

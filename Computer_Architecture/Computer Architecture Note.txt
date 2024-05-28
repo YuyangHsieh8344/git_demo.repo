@@ -52,4 +52,41 @@ r0 => can be overwritten by C functions but must be preserved by interrupts.
 All Zero registers
 r1 -> initialize to all zeros. it can be overwritten but must be stored to all zeros.
 
-r1 
+9. latency: The time required to perform an instruction
+Throughput: Number of instructions completed per unit time
+Ex: 	latency = 54 mins; 
+	Throughput is 1/54mins = 1.85*10^-3 instruction/mins 
+
+10. Data Hazards => occurs when previous command that hasn't yet made its way to pipeline.
+SOLUTIONS: 
+	1.stalling 
+	2. forwarding: forward values between intermediate stages of pipeline
+	*** use forwarding when possible, otherwise stalling
+
+11.Control hazards, also known as branch hazards, occur in pipelined processors when            the pipeline makes wrong decisions on branch prediction, leading to the execution of incorrect instructions. This happens because the processor cannot determine the outcome of a branch instruction (e.g., jump, conditional branch) early enough to avoid the misprediction.
+
+	1. Uncertainty about which commands to load into the pipeline is a challenge
+
+	2. Stalling is a common method to deal with control hazards
+
+
+ 	3.It involves waiting for the branch decision before proceeding with the 	  pipeline
+
+12. AVR Microcontrollers
+	a. 8-bit RISC (Reduced Instruction Set Computer) architecture.
+	b. Typically lower performance compared to ARM.
+	c. Operate at lower clock speeds, generally up to around 20 MHz for most 	common models.
+	d. Limited computational power suitable for simple and moderate complexity
+	 applications.
+
+     ARM Microcontrollers
+	a. 32-bit RISC architecture
+	b. More complex architecture and instruction set
+	c. Operate at higher clock speeds, often exceeding 100 MHz, with advanced 	models running at several hundred MHz or even GHz
+
+13. ARM has register file with 16 32-bit registers
+	a. R0 -R3: Used for temporary values and procedures call
+	b. R4 -R12: General Purpose
+	c. R13: Stack Pointer
+	d. R14: Used for branch instructions
+	e. R15: Program Counter
