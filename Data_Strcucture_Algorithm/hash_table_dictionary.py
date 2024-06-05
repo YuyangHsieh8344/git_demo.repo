@@ -13,3 +13,5 @@ name = my_dict['name']
 # Iterating over keys and values
 for key, value in my_dict.items():
     print(key, value)
+
+
