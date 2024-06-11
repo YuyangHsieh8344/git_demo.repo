@@ -1,33 +1,46 @@
 #include <iostream>
+#include <unordered_map>
+#include <string>
 #include <vector>
-#include <unordered_set>
+#include <algorithm>  // Needed for sort()
 
+using namespace std;
 
 class Solution {
 public:
-    bool containsDuplicate(std::vector<int>& nums) {
-        std::unordered_set<int> check_duplicate;
-        for (int num : nums) {
-            //std::unordered_set::find() function returns an iterator pointing to the element if it is found in the set, 
-            //and it returns std::unordered_set::end() if the element is not found
-            if (check_duplicate.find(num) != check_duplicate.end()) {
-                return true;
-            }
-            check_duplicate.insert(num);
+    vector<vector<string>> groupAnagrams(vector<string>& strs) {
+        unordered_map<string, vector<string>> mp;
+
+        // Iterate over each string in the input list
+        for (auto x : strs) {
+            string word = x;  // Copy the current string
+            sort(word.begin(), word.end());  // Sort the string to get the anagram key
+
+            mp[word].push_back(x);  // Use the sorted string as the key and append the original string to the map
         }
-        return false;
+
+        vector<vector<string>> ans;  // Prepare to collect the result
+        for (auto x : mp) {
+            ans.push_back(x.second);  // Append each group of anagrams to the result
+        }
+
+        return ans;
     }
 };
 
-
 int main() {
+    vector<string> strs = {"eat", "tea", "tan", "ate", "nat", "bat"};
     Solution solution;
-    std::vector<int> nums = {1, 2, 3, 4, 5, 6, 7, 8, 9, 1}; // Example input
-    bool result = solution.containsDuplicate(nums);
-    if (result) {
-        std::cout << "The array contains duplicates." << std::endl;
-    } else {
-        std::cout << "The array does not contain duplicates." << std::endl;
+    vector<vector<string>> result = solution.groupAnagrams(strs);
+
+    cout << "The group anagrams are: " << endl;
+    for (const auto& group : result) {
+        cout << "[ ";
+        for (const auto& word : group) {
+            cout << word << " ";
+        }
+        cout << "]" << endl;
     }
+
     return 0;
 }
