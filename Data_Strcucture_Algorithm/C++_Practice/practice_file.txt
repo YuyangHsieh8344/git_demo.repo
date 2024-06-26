@@ -1,0 +1,113 @@
+#include <iostream>
+#include <vector>
+#include <queue>
+#include <stack>
+
+//1 , 2 ,3 ,4 ,5 
+int bs(vector<int>& nums, int target)
+{
+	int left = 0;
+	int right = nums.size() -1;
+	int result = -1;
+	
+	while (left <= right)
+	{
+		int mid = (left + right) / 2;
+		
+		if (nums[mid] >= target)
+		{
+			right = mid -1;
+		}else {
+			left = mid + 1;
+		}
+		
+		if(nums[mid] == target)
+			return mid;
+	}
+	//if result != -1 return result else left
+	return (result != -1) ? result : left;
+}
+
+//1 , 2 ,3 ,4 ,5 
+int bs()
+{
+	
+	while ()
+	{
+		
+		if ()
+		{
+			;
+		}else {
+			;
+		}
+		
+		if()
+			;
+	}
+	//if result != -1 return result else left
+	;
+}
+
+void bfs (vector<vector<int>>& graph, int start, vector<bool> visited)
+{
+	
+	stack<int> s;
+	//mark the starting node as visited
+	visited[start] = true;
+	s.push(start);
+	
+	
+	while(!s.empty())
+	{	
+		//pop the top node from the stack
+		int current = s.top();
+		s.pop();
+
+		cout << current << " ";
+
+
+
+		for (int neighbor : graph[current] )
+		{
+			if(!visited[neighbor])
+			{
+				visited[neighbor] = true;
+				s.push(neighbor);
+
+			}
+		}
+	}
+
+}
+
+
+
+
+
+void bfs ()
+{
+    
+    
+    //mark the starting node as visited
+    
+    
+    
+    while()
+    {    
+        //pop the top node from the stack
+
+        cout <<  << " ";
+
+
+
+        for ( )
+        {
+            if()
+            {
+                
+            }
+        }
+    }
+
+}
