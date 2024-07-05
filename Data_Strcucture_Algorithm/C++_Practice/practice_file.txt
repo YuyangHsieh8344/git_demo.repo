@@ -3,16 +3,16 @@
 #include <queue>
 #include <stack>
 
+
 //1 , 2 ,3 ,4 ,5 
 int bs(vector<int>& nums, int target)
 {
 	int left = 0;
 	int right = nums.size() -1;
 	int result = -1;
-	
 	while (left <= right)
-	{
-		int mid = (left + right) / 2;
+	{	
+		int mid = left + (right - left)/2;
 		
 		if (nums[mid] >= target)
 		{
@@ -28,26 +28,30 @@ int bs(vector<int>& nums, int target)
 	return (result != -1) ? result : left;
 }
 
+
+
+
 //1 , 2 ,3 ,4 ,5 
 int bs()
 {
-	
-	while ()
-	{
-		
-		if ()
-		{
-			;
-		}else {
-			;
-		}
-		
-		if()
-			;
-	}
-	//if result != -1 return result else left
-	;
+
+    while ()
+    {
+
+        if ()
+        {
+            ;
+        }else {
+            ;
+        }
+
+        if()
+            ;
+    }
+    //if result != -1 return result else left
+    ;
 }
+
 
 void bfs (vector<vector<int>>& graph, int start, vector<bool> visited)
 {
@@ -85,18 +89,22 @@ void bfs (vector<vector<int>>& graph, int start, vector<bool> visited)
 
 
 
+
+
+
+
 void bfs ()
 {
-    
-    
-    //mark the starting node as visited
-    
-    
-    
-    while()
-    {    
-        //pop the top node from the stack
 
+
+    //mark the starting node as visited
+
+
+
+    while()
+    {
+
+        //pop the top node from the stack
         cout <<  << " ";
 
 
@@ -105,9 +113,54 @@ void bfs ()
         {
             if()
             {
-                
+
             }
         }
     }
 
-}
+} 
+
+To solve the problem of adding two binary strings, you can use the following approach:
+
+Initialize Pointers and Variables: Set pointers at the end of both strings and initialize a carry variable.
+Iterate Through Strings: Iterate through both strings from right to left, adding corresponding digits along with the carry.
+
+Handle Carry: If the sum of two digits plus the carry equals 2 or more, update the carry accordingly and compute the resulting digit.
+Build the Result String: Append the resulting digit to the result string.
+Handle Remaining Carry: If there is a carry left after processing all digits, append it to the result string.
+Return the Result: Reverse the result string and return it since it was built backwards.
+
+
+class Solution {
+public:
+    int ladderLength(string beginWord, string endWord, vector<string>& wordList) {
+        unordered_set<string> wordSet(wordList.begin(), wordList.end());
+        if (wordSet.find(endWord) == wordSet.end()) {
+            return 0;
+        }
+
+        queue<pair<string, int>> bfsQueue;
+        bfsQueue.push({beginWord, 1});  
+
+        while (!bfsQueue.empty()) {
+            string currentWord = bfsQueue.front().first;
+            int currentLevel = bfsQueue.front().second;
+            bfsQueue.pop();
+
+            for (int i = 0; i < currentWord.size(); ++i) {
+                string tempWord = currentWord;
+                for (char ch = 'a'; ch <= 'z'; ++ch) {
+                    tempWord[i] = ch;
+                    if (tempWord == endWord) {
+                        return currentLevel + 1;
+                    }
+                    if (wordSet.find(tempWord) != wordSet.end()) {
+                        bfsQueue.push({tempWord, currentLevel + 1});
+                        wordSet.erase(tempWord);
+                    }
+                }
+            }
+        }
+        return 0;
+    }
+};
